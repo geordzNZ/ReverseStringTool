@@ -22,6 +22,11 @@
 
             // Output results
             Console.WriteLine($"\n\tYour reversed text is '{reversedText}'");
+
+            if (textToBeReversed == reversedText)
+            {
+                Console.WriteLine($"\tYou entered some Palindrome text... Cool!!");
+            }
         }
     }
 }
