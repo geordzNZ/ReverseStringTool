@@ -12,6 +12,13 @@
             // Retrieve User input
             Console.Write($"\tPlease enter text to be reversed...\n\t");
             string textToBeReversed = Console.ReadLine();
+
+            // Process User input
+            string reversedText = "";
+            for (var i = textToBeReversed.Length - 1; i >= 0; i--)
+            {
+                reversedText += textToBeReversed[i];
+            }
         }
     }
 }
