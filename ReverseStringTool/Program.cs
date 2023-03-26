@@ -19,6 +19,9 @@
             {
                 reversedText += textToBeReversed[i];
             }
+
+            // Output results
+            Console.WriteLine($"\n\tYour reversed text is '{reversedText}'");
         }
     }
 }
