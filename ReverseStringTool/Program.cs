@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Header section
+            Console.WriteLine("\t\t\tWELCOME");
+            Console.WriteLine("\t\t  String Reversing Tool");
+            Console.WriteLine("==========================================================\n");
+
         }
     }
 }
